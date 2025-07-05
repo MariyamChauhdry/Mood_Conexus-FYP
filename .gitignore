@@ -1,0 +1,24 @@
+# Ignore Firebase secrets
+backend/firebase_config.py
+frontend/src/firebase.js
+
+# Node modules
+node_modules/
+
+# Python virtual environments
+venv/
+__pycache__/
+.env
+
+# Firebase credentials
+*.json
+*.key
+
+# Build and log files
+build/
+dist/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
